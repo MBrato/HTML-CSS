@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="style.css"></link>
 	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-  <script src="my-library.js"></script>
+	<script src="my-library.js"></script>
 	<title>Регистрация</title>
 </head>
+
 <body>
 	<div class="header">
 		<a id="welcomePage" class="link" href="index.html">
@@ -17,30 +19,32 @@
 	<h1>Регистрация</h1>
 	<div class="content">
 		<div id="formRegistration" class="form">
-				<label for="fName">Име:</label><br />
-				<input type="text" id="fName"/><br />
-				<label for="lName">Фамилия:</label><br />
-				<input type="text" id="lName"/><br />
-				<label for="phoneNum">Телефон:</label><br />
-				<input type="text" id="phoneNum"/><br />
-				<label for="email">Email:</label><br />
-				<input type="text" id="email"/><br />
-				<label for="username">Потребителско име:</label><br />
-				<input type="text" id="username"/><br />
-				<label for="password">Парола:</label><br />
-				<input type="password" id="password"/><br />
-				<p>
-					<button id="regBtn">Изпрати</button></br/>
-				</p>
-				<div id="confirmation-message" class="infoMassage" style="display: none;">
-						<a id="indexP" class="link" href="index.html"><button id="reg-log-btn" style="display: inline;" >Вход</button></a>
-				</div><br />
+			<label for="fName">Име:</label><br />
+			<input type="text" id="fName" /><br />
+			<label for="lName">Фамилия:</label><br />
+			<input type="text" id="lName" /><br />
+			<label for="phoneNum">Телефон:</label><br />
+			<input type="text" id="phoneNum" /><br />
+			<label for="email">Email:</label><br />
+			<input type="text" id="email" /><br />
+			<label for="username">Потребителско име:</label><br />
+			<input type="text" id="username" /><br />
+			<label for="password">Парола:</label><br />
+			<input type="password" id="password" /><br />
+			<p>
+				<button id="regBtn">Изпрати</button>
+				</br/>
+			</p>
+			<div id="confirmation-message" class="infoMassage" style="display: none;">
+				<a id="indexP" class="link" href="index.html"><button id="reg-log-btn" style="display: inline;" >Вход</button></a>
+			</div><br />
 		</div>
 	</div>
 	<script>
-    window.onload = function(){
-      library();
-    }
-  </script>
+		window.onload = function() {
+			library();
+		}
+	</script>
 </body>
+
 </html>

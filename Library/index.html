@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="style.css"></link>
 	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-  <script src="my-library.js"></script>
+	<script src="my-library.js"></script>
 	<title>Моята библиотека</title>
 </head>
+
 <body>
 	<div class="header">
 		<a id="welcomePage" class="link" href="index.html">
@@ -15,35 +17,32 @@
 	</div>
 	<br/>
 	<div class="content">
-			<div id="formLogin" class="form">
-					<p>
-						<label for="username">Име</label><br />
-						<input id="username" class="login-fields" type="text" required="true"  disabled/>
-					</p>
-					<p>
-						<label for="pass">Парола</label><br />
-						<input id="pass" class="login-fields" type="password" required="true" disabled/>
-					</p>
-					<a class="link" href="welcome.html"><button id="loginBtn">Вход</button></a>
-				<fielderror name="invalid" />
-				<p>
-					<a id="linkRegistration" class="link" href="registration.html">Регистрация</a>
-				</p>
-			</div>
-			<div id="site-information-section">
-				<h1>Чели ли сте...</h1>
-						<img alt="image" src="images/cloud-atlas.jpg" height="220px" width="150px"/>
-						"Облакът атлас" се състои от шест истории, наредени една в друга като кукла матрьошка,
-						които превеждат читателя през различни времена и места –от XIX век в далечния Тихи океан
-						до постапокалиптично бъдеще на Хаваите. В хода на повествованието Мичъл разкрива каква е
-						връзката между отделните герои, как се преплитат съдбите им и как душите им се носят във
-						времето и пространството като облаци в небето.
-			</div>
+		<div id="formLogin" class="form">
+			<p>
+				<label for="username">Име</label><br />
+				<input id="username" class="login-fields" type="text" required="true" disabled/>
+			</p>
+			<p>
+				<label for="pass">Парола</label><br />
+				<input id="pass" class="login-fields" type="password" required="true" disabled/>
+			</p>
+			<a class="link" href="welcome.html"><button id="loginBtn">Вход</button></a>
+			<fielderror name="invalid" />
+			<p>
+				<a id="linkRegistration" class="link" href="registration.html">Регистрация</a>
+			</p>
+		</div>
+		<div id="site-information-section">
+			<h1>Чели ли сте...</h1>
+			<img alt="image" src="images/cloud-atlas.jpg" height="220px" width="150px" /> "Облакът атлас" се състои от шест истории, наредени една в друга като кукла матрьошка, които превеждат читателя през различни времена и места –от XIX век в далечния Тихи
+			океан до постапокалиптично бъдеще на Хаваите. В хода на повествованието Мичъл разкрива каква е връзката между отделните герои, как се преплитат съдбите им и как душите им се носят във времето и пространството като облаци в небето.
+		</div>
 	</div>
 	<script>
-    window.onload = function(){
-      library();
-    }
-  </script>
+		window.onload = function() {
+			library();
+		}
+	</script>
 </body>
+
 </html>
