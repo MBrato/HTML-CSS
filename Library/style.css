@@ -1,0 +1,267 @@
+h2 a{
+	color: black;
+	text-decoration: none;
+}
+a img{
+	border: 0;
+	width: 120px;
+	height: 120px;
+}
+body {
+background-image: url("images/Books-jgfssd.jpg");
+background-position: left;
+}
+h1{
+	text-align: center;
+	font-family: fantasy;
+	background-color: #6B4435;
+	border-radius: 30px;
+	color: #FF9F41;
+}
+h2{
+	color: black;
+	text-align:center;
+	font-family: fantasy;
+	background-color: #E62A09;
+	border-radius: 15px;
+}
+#aBookEditForm{
+	width:500px;
+}
+#linkRegistration, #indexP, #uDelete{
+/* 	text-decoration: none; */
+	font-style: oblique;
+	font-weight: bold;
+	color: black;
+}
+#thTable{
+	background-color: #FFCC66;
+	font-weight: bold;
+}
+#loginBtn, #regBtn, #reg-log-btn, #updateBtn{
+	background: #93240c none repeat scroll 0 0;
+	border: 0 none;
+	color: #fff;
+	cursor: pointer;
+	font: bold 12px/29px Arial;
+	height: 30px;
+	float: left;
+	margin-right: 15px;
+	width: 99px;
+	padding: 0 15px;
+	text-transform: uppercase;
+}
+#formLogin{
+	position: relative;
+	font-family: Helvetica, Nimbus Sans L, sans-serif;
+	font-size: 14px;
+	padding: 5px 15px 10px;
+	margin-bottom: 16px;
+	border: 1px solid #dadada;
+	border-radius: 6px;
+	background-color: white;
+	zoom: 1;
+}
+#formRegistration, #formUpdate{
+	margin: 10px;
+	padding: 25px;
+	width: 250px;
+	text-align: center;
+}
+#search-book-form{
+	background-color: #E62A09;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 15px 20px;
+  display: block;
+	text-align: right;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #530f03;
+  border-right: 1px solid #9c1d06;
+}
+#site-information-section{
+	height: 400px;
+	width: 700px;
+  border-radius: 10px;
+	right: 0;
+  position: fixed;
+  top: 150px;
+	margin: 10px;
+	padding: 20px;
+	background-color: white;
+	text-align: left;
+}
+#hello{
+	border-radius: 5px;
+	background-color: #530f03;
+}
+.login-fields{
+	padding-left: 28px;
+	background-color: white;
+	width: 50%;
+	padding-right: 1px;
+	margin-right: -4px;
+}
+.infoBook img{
+	border: 10px;
+	border-style: inset;
+	border-color: #E62A09;
+	width: 300px;
+	height: auto;
+}
+.infoBook, .usersChart{
+	font-weight: bold;
+	background-color: #FFF68F;
+	border-radius: 10px;
+	width: auto;
+	padding:20px;
+}
+.usersChart img{
+	border: 10px;
+	border-style: inset;
+	border-color: #E62A09;
+	width: 800px;
+	height: 600px;
+}
+.menu{
+	background-color: #6B4435;
+	width: auto;
+	padding:20px;
+	border-radius:15px;
+	list-style: circle;
+}
+.menu a{
+	text-decoration: none;
+	color:#FF9F41;
+	font-weight:bold;
+	display:list-item;
+	list-style: disc;
+}
+.tables{
+	display: table;
+	width: auto;
+}
+.tableRow{
+	display: table-row;
+	background-color: #FFF68F;
+}
+.tableCell{
+	display: table-cell;
+	width: 250px;
+	padding: 5px;
+	margin: 5px;
+}
+.tableCell img{
+	width: 25px;
+	height: 20px;
+}
+.header {
+	background-color: white;
+	border-radius: 15px;
+	font-size: 30px;
+	font-family: fantasy;
+}
+.navigation, .navigation ul, .navigation li .navigation a{
+	text-decoration: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 14px;
+	font-family: Helvetica;
+	line-height: 1;
+	}
+.navigation{
+  width: auto;
+}
+.navigation ul {
+  zoom: 1;
+  background: #e62a09 url(pattern.png) top left repeat;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #9c1d06;
+  -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+.navigation ul:before {
+  content: '';
+  display: block;
+}
+.navigation ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.navigation a, .navigation a:link, .navigation a:visited, #search-book-form{
+  padding: 15px 20px;
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 0 -1px 1px #530f03;
+  border-right: 1px solid #9c1d06;
+}
+.navigation a:hover{
+  color: #530f03;
+  text-shadow: 0 1px 1px #f74a2b;
+}
+.navigation li{
+  float: left;
+  border-right: 1px solid #f63513;
+}
+.navigation li:hover {
+  background: #cd2608 url(pattern.png) top left repeat;
+}
+.navigation li:first-child {
+  border-left: none;
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+.navigation ul li ul {
+     display: none;
+}
+
+.navigation ul li:hover ul {
+     display: block;
+     position: absolute;
+}
+.count{
+
+}
+.form{
+	background-color: #e62a09;
+	width: 280px;
+	border-radius: 25px;
+	margine: 10px;
+	padding: 20px;
+	font-style: italic;
+	font-weight: bold;
+}
+.infoMassage{
+	font-weight: bold;
+	background-color: #FFF68F;
+	border-radius: 10px;
+	width: 400px;
+	height: 300px;
+	margin: 20px;
+	padding:20px;
+	right: 0px;
+	border-radius: 10px;
+	position: absolute;
+	top: 380px;
+}
+#confirmation-message{
+	font-weight: bold;
+	background-color: #FFF68F;
+	border-radius: 10px;
+	text-align: center;
+	width: 410px;
+	height: 60px;
+	margin: 10px;
+	padding: 10px;
+	left: 160px;
+	border-radius: 10px;
+	top: 518px;
+}

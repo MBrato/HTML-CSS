@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css"></link>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <script src="my-library.js"></script>
+	<title>Редакция на потребителски данни</title>
+</head>
+<body>
+<nav class="main-nav">
+	<div class="header">
+		<a href="welcome.html" id="welcomePage" class="link">
+        <img alt="Home page " src="images/549b2e_db230bfbe20186ab091a0da7b1c52035.gif_256.gif"></a>Моята библиотека
+	</div>
+	<div class="navigation">
+		<ul>
+			<li class="active">
+				<a href="welcome.html" id="uWelcome" class="link"><span>Начало</span></a>
+			</li>
+			<li><a href="#">Читателски картон</a>
+				<ul>
+					<li>
+						<a id="uLibCardReq" class="link" href="#"><span>Запазени книги</span></a>
+					</li>
+					<li>
+						<a id="uLibCardTaken" class="link" href="#"><span>Взети книги</span></a>
+					</li>
+				</ul>
+				<li>
+					<a id="settings" class="link" href="аccountSettings.html"><span>Настройки на профила</span></a>
+				</li>
+				<li class="last">
+					<a id="logout" class="link" href="index.html"><span>Изход</span></a>
+				</li>
+		</ul>
+	</div>
+</nav><br />
+<p id="search-book-form">
+	<label for="search-form">Търси</label>
+	<input id="search-form" type="text" disabled/>
+	<button id="searchBtn-nav"><img src="images/system-search.png" width="20" height="20" alt="Search" /></button>
+</p>
+<h1>Редактирайте данните:</h1>
+<div class="content">
+	<div id="formUpdate" class="form">
+		<h1>Редактирай</h1>
+		<label for="fName">Име:</label><br />
+		<input type="text" id="fName" /><br />
+		<label for="lName">Фамилия:</label><br />
+		<input type="text" id="lName" /><br />
+		<label for="phoneNum">Телефон:</label><br />
+		<input type="text" id="phoneNum" /><br />
+		<label for="email">Email:</label><br />
+		<input type="text" id="email" /><br />
+		<label for="password">Парола:</label><br />
+		<input type="password" id="password" /><br />
+		<p>
+			<button id="updateBtn">Редактирай</button>
+		</p>
+		<div></div><br />
+	</div>
+	<div class="infoMassage">
+		<h1>Потребителски данни:</h1>
+		<div id="userInfo"></div>
+	</div>
+</div>
+<script>
+	window.onload = function() {
+		library();
+	}
+</script>
+</body>
+</html>
