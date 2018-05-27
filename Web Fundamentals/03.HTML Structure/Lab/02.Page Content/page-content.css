@@ -1,0 +1,7 @@
+body{
+  background-color: #CCCCCC;
+}
+header > p{
+  font-style: italic;
+  font-size: 12px;
+}

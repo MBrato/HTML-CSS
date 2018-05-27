@@ -1,0 +1,16 @@
+div{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: #f7f381;
+  margin: 0 auto;
+  padding: 24px;
+  width: 510px;
+  border-bottom-right-radius: 150px;
+  border-color: #000000;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+h1, p{
+  text-align: center;
+}
+body{
+  background-image:  url("wood_boar.jpg");
+}

@@ -1,0 +1,19 @@
+div{
+  background-color: #5CA4FF;
+  width: 500px;
+}
+li{
+  border-style: double;
+  border-bottom-style: solid;
+  border-color: #CDFFE9;
+}
+ul{
+  border-style: double;
+  border-bottom-style: solid;
+  border-color: #CDE9FF;
+}
+ol{
+  border-style: double ;
+  border-bottom-style: solid;
+  border-color: #AEB3FF;
+}

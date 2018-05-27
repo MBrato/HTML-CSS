@@ -1,0 +1,22 @@
+table, th, tr, td{
+  border: 2px solid #BBFFA2;
+  background-color: #B0FF61;
+}
+table{
+  width: 500px;
+  font-family: Hoefler Text, Baskerville Old Face, Garamond, Times New Roman, serif;
+}
+thead{
+    font-size: 20px;
+}
+tfoot{
+  text-align: right;
+}
+th, td{
+    padding: 5px;
+    margin: 10px;
+}
+.bold{
+  font-weight: bold;
+  text-align: center;
+}
