@@ -1,0 +1,28 @@
+main{
+  float: left;
+  padding: 10px;
+}
+header, footer{
+  background: #8b603d;
+  border: 2px solid #4b4b4b;
+  color: white;
+  padding-left: 15px;
+}
+nav{
+  float: left;
+}
+nav ul li{
+  list-style: none;
+  background: #33b5e5;
+  color: white;
+  padding: 7px;
+  margin: 5px;
+  width: 120px;
+}
+nav ul{
+  margin: 5px;
+  padding: 5px;
+}
+footer{
+  clear: left;
+}
