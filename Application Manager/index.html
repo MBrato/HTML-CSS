@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Application Manager</title>
+	<link rel="stylesheet" href="application-entity.css">
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"
+              integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+              crossorigin="anonymous"></script>
+	<script src="application-entity.js" type="text/javascript"></script>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><button id="createBtn">Create new application</button></li>
+			<li><button id="readBtn">Read all applications</button></li>
+			<li><button id="updateDeleteBtn">Update/Delete</button></li>
+		</ul>
+	</nav>
+	<header>
+		<h1>Application</h1>
+	</header>
+	<main>
+		<script>
+    		window.onload = function(){
+      		studentApplication();
+    		}
+  		</script>
+		<section>
+			<article id="create-application-form" style="display: block">
+				<fieldset id="student-info">
+					<h1>Create Application</h1>
+					<form id="register-form">
+						<div class="pairContainer">
+							<label for="student-name">Name:</label><br/>
+							<input type="text" id="student-name"><br/>
+						</div>
+						<div class="pairContainer">
+							<label for="email">Email:</label><br/>
+							<input type="text" id="email"><br/>
+						</div>
+						<div class="pairContainer">
+							<label for="age">Age:</label><br/>
+							<input type="text" id="age"><br/>
+						</div>
+						<div class="pairContainer">
+							<label for="phone">Phone Number:</label><br/>
+							<input type="text" id="phone" placeholder="+0000000000"><br/>
+						</div>
+						<div class="pairContainer" id="communication-radioBtns">
+							<form id="comm-radioBtns">
+								<label for="comm-radioBtns">Preferred Way of Communication:</label><br/>
+								<label for="email-radio">Email </label>
+								<input type="radio" id="email-radio" name="communication" value="email" checked>
+								<label for="phone-radio">Phone </label> 
+								<input type="radio" id="phone-radio" name="communication" value="phone">
+							</form>
+						</div>
+						<div class="pairContainer">
+							<label for="eng-leve">English Level1:</label><br/>							
+							<select id="eng-level"><br/>
+								<option value="a1" selected="select">A1</option>
+								<option value="a2">A2</option>
+								<option value="b1">B1</option>
+								<option value="b2">B2</option>
+								<option value="c1">C1</option>
+								<option value="c2">C2</option>
+							</select>
+						</div>
+						<div class="pairContainer">
+							<label for="start-date">Available to Start:</label><br/>
+							<input type="date" id="start-date" ><br/>
+						</div>
+						<div class="pairContainer">
+							<label for="skills-courses">Technical Skills and Courses:</label><br/>
+							<textarea id="skills-courses"></textarea><br/>
+						</div>
+						<div class="pairContainer">
+							<label for="personal-presentation">Short Personal Presentation (e.g. reason for joining the program):</label><br/>
+							<textarea id="personal-presentation"></textarea><br/>
+						</div>
+						<div class="pairContainer">
+							<label for="is-study-home">Study from home</label><br/>
+							<input type="checkbox" id="is-study-home"><br/>
+						</div>
+						<button id="submit">Apply</button>
+						<!-- <input type="submit" id="submit"> -->
+					</form>
+					<div id="warning-message-container" style="display: none"></div>
+					</form>
+				</fieldset>
+			</article>
+			<article id="read-all-applications" style="display: none">
+				<fieldset>
+					<h1>All Applications</h1>
+					<ul id="application-list"></ul>
+				</fieldset>
+			</article>
+			<article id="up-del-field" style="display: none">
+				<fieldset>
+					<form id="update-delete-phoneForm">
+						<label for="search-phone">Phone Number: </label><br/>
+						<input type="text" id="search-phone" placeholder="+0000000000"><br/>
+						<button id="searchPhoneBtn">Search</button>
+						<div id="error-message-container" style="display: none"></div>
+					</form>
+					<ul id="application-student"></ul>
+				</fieldset>
+			</article>
+		</section>
+	</main>
+</body>
+</html>

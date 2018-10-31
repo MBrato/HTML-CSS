@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Krub');
+body{
+	font-family: 'Krub', sans-serif;
+	background: url("images/d8d241f292eb9f876ce5e97686c2bdb2.jpg"); 
+	background-size: auto;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+nav{
+	margin: 30px;
+	text-align: center;
+}
+nav ul li{
+ 	display: inline-block;
+}
+header{
+	background: url("images/header-5.png");
+	height: 150px;
+ 	background-size: cover;
+}
+header h1{
+	color: #f9fae9;
+	font-weight: bold;
+	text-align: center;
+	padding: 80px 0;
+	margin: 0;
+}
+fieldset{
+	background-color: #f9fae9;
+	border: none;
+	margin: 0 auto;
+  	padding: 24px;
+  	width: 510px;
+  	border-color: #000000;
+  	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+}
+button{
+	background: #CF9291;
+	color: #2d414f;
+	padding: 15px 30px;
+	margin: 10px 8px;
+	font-size: 0.9em;
+	cursor: pointer;
+	border: #F9FAE9 solid 1px;
+	border-radius: 10px;
+}
+button:hover{
+	background: #A8A3A7;
+}
+li{
+	list-style-type: none;
+	padding: 5px 0;
+}
+.pairContainer{
+	margin: 10px;
+}
